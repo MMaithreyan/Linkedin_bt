@@ -1,36 +1,53 @@
-
-.me-2{
+.fa-home {
     position: relative;
-    right: 50px;
-}
-.vertical{
-    border-left: 3px solid black;
-    height: 40px;
-    position: relative;
-    right: 40;
-}
-.itm ol li img{
-    border-radius: 50%;
-    position: relative;
-    right: 10px;
-}
-.fa-home{
-   position: relative;
-   left: 10px;
-}
-.fa-user-friends{
-    position: relative;
-    left: 25px;
-}
-.fa-comment-dots{
-    position: relative;
-    left: 25px;
-}
-.fa-bell{
-    position: relative;
-    left: 25px;
-}
-.txt{
-    position: relative;
+    left: 10px;
     top: 10px;
+}
+
+.fa-user-friends {
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+.fa-briefcase {
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+.fa-bell {
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+
+.fa-envelope {
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+.fa-users {
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.fa-building {
+    position: relative;
+    left: 13px;
+    top: 10px;
+}
+
+.vertical {
+    border-left: 2px solid black;
+    height: auto;
+
+}
+.dropdown-toggle{
+    position: relative;
+    top: 25px;   
+    right: 30px;
+
 }

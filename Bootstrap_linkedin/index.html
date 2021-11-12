@@ -16,44 +16,80 @@
 
 <body>
 
-  <nav class="navbar navbar-light bg-gray">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png" alt="" width="35"
-          height="40">
-      </a>
+      <img src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png" alt="" width="38" height="45">
 
-
-      <form class="d-flex ">
+      <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <script src="https://kit.fontawesome.com/ff56a8dc40.js" crossorigin="anonymous"></script>
 
 
-      <div class="list-inline itm">
-        <ol class="list-unstyled ">
-          <li class="list-inline-item "><i class="fas fa-home"></i> <br> Home</li>
-          <li class="list-inline-item "><i class="fas fa-user-friends"></i> <br>My NetWork</li>
-          <li class="list-inline-item "><i class="fas fa-briefcase"></i><br>Jobs</li>
-          <li class="list-inline-item "><i class="fas fa-comment-dots"></i><br>Messaging</li>
-          <li class="list-inline-item "><i class="fas fa-bell"></i><br>Notification</li>
-          <li class="list-inline-item "><img
-              src="https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/social-media-profile-photos-3.jpg"
-              alt="" width="35" height="40" border-radius="50%"><br> Me</li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="justify-content-end">
+        <div class=" collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+            <li class="nav-item">
+              <i class="fas fa-home"></i>
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-briefcase"></i>
+              <a class="nav-link" href="#">Jobs</a>
+            </li>
+            <li class="nav-item center">
+              <i class="fas fa-bell"></i>
+              <a class="nav-link ">Notification</a>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-envelope"></i>
+              <a class="nav-link ">Messages</a>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-users"></i>
+              <a class="nav-link ">MyNetwork</a>
+            </li>
+  
+            <li class="nav-item ">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5aNULs6uQSZLp62cjVIcWidrVhzYlM7FLg&usqp=CAU"
+                alt="" width="35" height="20" style="border-radius: 20px;">
+                
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                  Me
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Account</a></li>
+                  <li><a class="dropdown-item" href="#"> Settings & Privacy</a></li>
+                  <li><a class="dropdown-item" href="#">Help</a></li>
+                  <li><a class="dropdown-item" href="#">Language</a></li>
 
-        </ol>
-      </div>
-      <div class="vertical"></div>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"> Manage</a></li>
+                  <li><a class="dropdown-item" href="#"> Post & Activity</a></li>
+                  <li><a class="dropdown-item" href="#"> Job Posting Account</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"> Sign-Out</a></li>
 
-      <div class="list-inline txt">
-        <ol class="list-unstyled ">
-          <li class="list-inline-item"><i class="far fa-building"></i> <br>
-            <p>Work</p>
-          </li>
-          <li class="list-inline-item">
-            <p style="color:goldenrod"> NetWork Smarter,<br>Try Premium Free</p>
-          </li>
-        </ol>
+                </ul>
+              </li>
+            </li>
+            <div class="vertical"></div>
+            <li class="nav-item">
+              <i class="far fa-building"></i>
+              <a class="nav-link ">Work</a>
+
+            </li>
+            <li class="nav-item">
+              <p style="color:goldenrod"> NetWork Smarter,<br>Try Premium Free</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -62,4 +98,5 @@
     crossorigin="anonymous"></script>
 
 </body>
+
 </html>
