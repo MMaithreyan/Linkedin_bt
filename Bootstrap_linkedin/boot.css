@@ -1,6 +1,6 @@
 .fa-home {
     position: relative;
-    left: 10px;
+    left: 20px;
     top: 10px;
 }
 
@@ -42,16 +42,47 @@
 
 .vertical {
     border-left: 2px solid black;
-    height: auto;
-
+    height: 50px;
 }
-.dropdown-toggle{
+
+.dropdown-toggle {
     position: relative;
-    top: 25px;   
+    top: 25px;
     right: 30px;
-
 }
-.bg{
- border: 1px solid black;
- height: 100px;
+.gold_cont{
+    margin-top: 10px;
+}
+
+.bg {
+    border: 1px solid black;
+    height: 100px;
+}
+
+.sidebar_left {
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.sidebar_right {
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.middle_content {
+    border-radius: 20px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.nav-item img {
+    width:35px;
+    height:30px;
+     border-radius: 20px;
+    padding-top:10px;
+}
+.body_cont{
+    margin-top: 30px;
 }
