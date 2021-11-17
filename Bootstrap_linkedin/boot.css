@@ -143,3 +143,11 @@ body {
 .hor hr {
     width: 400px;
 }
+.maithreyan{
+    position: relative;
+    right: 20px;
+}
+.pro_cont{
+    position: relative;
+    bottom: 30px;
+}
